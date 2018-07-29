@@ -1,0 +1,11 @@
+I did refactoring the class Table at this stage. 
+
+I add keys to tables. The keyvalue is the unique key of an individual record. Map is just very suitable for such relationship. Moreover, using row number to refer to a record depends on the order of records, so it is abandoned at this stage.
+
+So I change the type of table to Map. I use a "keyvalue" to refer to(mapping) a "record". I think it would be much more convenient and appropriate to do the future development. Key-Unique checkings are placed where necessary to ensure that programming is defensive.  
+
+As a result, class Files and Printing need to be modified accordingly. 
+
+And of course, complete tests are included.
+
+*It is worth mentioning here that I¡®ve thought about foreign keys but I didn't include them into consideration, which is part of constraints in the Extension part, due to the reason of time limitness. 

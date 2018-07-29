@@ -1,0 +1,7 @@
+At this stage, I just write a class Files with two methods to read table from a text file and to write table to a text file. 
+
+In files, records are separated by lines and values in one record are separated by commas.  Attributes are separated by commas. 
+
+When you create a table by reading from a file, table's name is just the same as the part before ".txt" of the file's name (use "split" to realize it). When you output a table to a file, you should give the file's name. 
+
+And of course tests are included. 

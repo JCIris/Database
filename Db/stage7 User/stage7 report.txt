@@ -1,0 +1,5 @@
+This User class allows users to operate on database by entering text in command line. Pass the input from keyboard (split by spaces) to a list of list of strings. A few methods are designed to analysis what the command intends doing and these methods are matched with the first word of the command by a switch-case. 
+
+Enough hints are provided to allow users to use the database easily. I didn't write unit testing in this class. I just test it by becoming a user and checking whether the interactions work well. 
+
+As time limits, I just stop here. 

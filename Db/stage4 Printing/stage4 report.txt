@@ -1,0 +1,5 @@
+At this stage, I write a class Printing for printing tables. 
+
+In the class Printing, there are just a few methods to be able to print a table in the nice  table format. Attributes occupy a line. Each individual record occupies a line. The width of a column depends on the longest element in this column. All these make the printing look cleaner and more neat. 
+
+And of course, tests are included. 

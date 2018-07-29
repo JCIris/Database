@@ -1,0 +1,7 @@
+At this stage, I write a class Database to be able to manage tables. I use HashMap to realize referring to a table by its table name. So each table name must be unique in a database. 
+
+In this class, there is a constructor to initialize a database and a few methods to get tables and operate on tables in it (insert a table, drop a table, input a table by loading a file, output a table to a file). And the class wraps previous things in it, including selecting (multiple) record(s), deleting (multiple) record(s), inserting record, updating record and altering record. So we can use class Database only in the future development. 
+
+And of course, complete tests are included. 
+
+This is the end of the whole database. Then I will try to design the user interaction. 

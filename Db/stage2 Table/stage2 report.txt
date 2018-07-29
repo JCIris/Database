@@ -1,0 +1,10 @@
+A table contains a line of attributes and a few lines of records. A list of a list of strings would be convenient to do some operations. 
+
+So I rewrite the class Record to keep its type consistent with the table at this stage. That becomes much easier for me to write methods in class Table. 
+
+In class Table, I design two kinds of methods, about table and operations on table. 
+Table methods are methods for me to easily access a table and its features. Operation methods contain some operations like INSERT, DELETE, SELECT, UPDATE, ALTER.  Both delete and select operations allow us to apply to mutiple records. 
+
+Fields are private to ensure robustness. Out-of-bound checkings are placed where necessary to make sure that programming is defensive. And of course, there are complete tests. 
+
+I use row number to control common operations on a table at this stage. Each time when you successfully insert or delete a record of a table, rows shoud move down(rows++) or move up (rows--) a line. 

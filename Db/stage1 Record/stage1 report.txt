@@ -1,0 +1,5 @@
+When I designed the class Record in the very beginning, I couldn't see any preference on using string arrays or lists. So I just chose String[] optionally. It looks a little bit more convenient when using indexes. 
+
+The class Record only contains a few methods: tupleSize, getValue, setValue, setTuple, getTuple and insertValue, and some tests. Fields are private to ensure robustness. Also, make sure that all the indexes are not out of bound to ensure that programming is defensive. 
+
+*In the previous coursework, I didn't set fields private and didn't make tests self-contained. So I pay attention to these points and correct them at this time. 
